@@ -29,6 +29,11 @@ body{
     margin-top:60px;
     text-transform: capitalize;   
 }
+.common-h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;   
+}
 .header-p{
     color: white;
     text-align: center;
@@ -106,38 +111,20 @@ body{
 
 /* Donate plane section end  */
 
-input[type=text]{
-    width: 500px;
-    border:none;
-    border-bottom: 2px solid green;
-    background: transparent;
-    font-size: 20px;
-}
+/* Donate today section start  */
 
-#donate-query-section{
+#donate-today-section{
     height: 650px;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    /* background-color: aliceblue; */
-}
-.common-h2{
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    
 }
 .donate-p{
     text-align: center;
-   
-}
-input[type=submit]{
-    border:none;
 }
 .amount-box{
     display: flex;
-    
 }
 .amount-p{
     border: 2px solid green;
@@ -150,9 +137,37 @@ input[type=submit]{
     background-color: white;
 }
 .amount-p:hover{
-    background-color: green;
-    color: white;
+    background-color: #32502E;
+    color: #ffffff;
 }
+.activ-p{
+    border: 2px solid green;
+    padding: 40px 30px;
+    border-radius: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Mina',sans-serif;
+    margin-left: 10px;
+    background-color:#96BB7C; 
+}
+.activ-p:hover{
+    background-color: #32502E;
+    color:#ffffff;
+}
+.amount-input{
+    width: 500px;
+    border:none;
+    border-bottom: 2px solid green;
+    background: transparent;
+    font-size: 20px;
+}
+input[type=submit]{
+    border: none;
+}
+
+/* Donate today section end  */
+
+
 .input-p{
     text-align: center;
     
