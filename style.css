@@ -4,55 +4,108 @@ body{
     box-sizing: border-box;
 }
 .container{
-    width: 1200px;
+    width:1200px;
     margin: 0 auto;
+    background-color:#EFF7E1 ;
 }
-
+/* header area start  */
 #header-area{
-    background: linear-gradient(rgba(244, 243, 243, 0.014),rgb(0, 0, 4,0.9)),url(./image/Header-Image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.009),rgba(25, 25, 25,1)),url(./image/Header-Image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-   
-    
-    
+    align-items: center;     
 }
 .header-h1{
-    font-size: 50px;
+    font-size: 55px;
     color: white;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    width: 800px;
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
     font-weight: 700;
-    background-color: rgba(0, 0, 0, 0.1);
-   
-    
-    
-  
+    margin-top:60px;
+    text-transform: capitalize;   
 }
 .header-p{
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     width: 700px;
     margin-bottom: 50px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 .common-btn{
     padding: 10px 40px;
-    background-color: green;
+    background-color: #DF0E62;
     text-decoration: none;
     font-family:'Mina', sans-serif; 
     color: white;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 18px;  
+}
+/* header area end  */
 
+/* Donate plane section start  */
+
+#donate-plane-section{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .donate-p{
+    font-size: 18px;
+    font-family: 'Abel',sans-serif; 
+ }
+ .card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+ .card-no-one{
+    width: 300px;
+    height: 270px;
+    background-color: #32502E;
+    border-radius: 5px;
+    color: #fff; 
+    box-shadow: 1px 1px 10px black;
+}
+.card-no-two{
+    width: 300px;
+    height: 270px;
+    background-color: #4A503D;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 1px 1px 10px black;
     
 }
+.card-no-three{
+    width: 300px;
+    height: 270px;
+    background-color: #5F7A61;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 1px 1px 10px black;
+    
+}
+.card-img{
+    padding: 20px;
+    
+}
+.card-heading{
+    padding-left: 20px;
+    font-family: 'Roboto',sans-serif;
+}
+.card-p{
+    margin-left: 20px;
+    font-family: 'Mina',sans-serif;
+}
+
+/* Donate plane section end  */
+
 input[type=text]{
     width: 500px;
     border:none;
@@ -67,7 +120,7 @@ input[type=text]{
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .common-h2{
     font-size: 30px;
@@ -104,52 +157,10 @@ input[type=submit]{
     text-align: center;
     
 }
-
-#donate-plane-section{
-   height: 650px;
-   background-color: azure;
-   display: flex;
-   flex-direction: column;
-}
-.card-no-one{
-    width: 300px;
-    height: 270px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    
-}
-.card-no-two{
-    width: 300px;
-    height: 270px;
-    background-color: tomato;
-    border-radius: 10px;
-    
-}
-.card-no-three{
-    width: 300px;
-    height: 270px;
-    background-color: orange;
-    border-radius: 10px;
-    
-}
-.card-img{
-    padding: 20px;
-}
-.card-heading{
-    padding-left: 20px;
-}
-.card-p{
-    margin-left: 20px;
-}
-.card-container{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
 /* contact section start  */
 #contact-section{
     height: 650px;
-    background-color: azure;
+    /* background-color: azure; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,7 +193,7 @@ input[type=submit]{
 /* foooter section start  */
 footer{
     height: 200px;
-    background-color: cadetblue;
+    background-color: #313552;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,7 +203,7 @@ footer{
 
 #work-section{
     height: 650px;
-    background-color: rgb(245, 237, 237);
+    /* background-color: rgb(245, 237, 237); */
     display: flex;
     flex-direction: column;
     align-items: center;
